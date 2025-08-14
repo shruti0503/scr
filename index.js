@@ -1,5 +1,5 @@
 import express from 'express';
-import g2ReviewsRoute from './g2Reviews.js';
+import g2ReviewsRoute from './scrapper.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -7,7 +7,6 @@ const app = express();
 
 app.use(express.json());
 
-// Routes
 app.use('/api', g2ReviewsRoute);
 
 app.listen(3000, () => {
