@@ -1,6 +1,6 @@
 
 
-# SaaS Review Scraper – G2 & Capterra
+# Review Scraper – G2 & Capterra
 
 ## Overview
 This project is an **Express.js API** for scraping product reviews from **G2** and **Capterra** for a specified company.  
@@ -36,7 +36,7 @@ https://drive.google.com/file/d/1pbXSeURjoFyMD9ktSxPgHHQIs1q2CnLG/view?usp=shari
 
 ### **Capterra – Playwright Browser Automation**
 - **Reasoning:**  
-  - Capterra’s review pages are **not directly linked** — you must:
+  - Capterra’s review pages are **not directly linked** , you must:
     1. Search for the product in the search results.
     2. Click the **"View all reviews"** link.
     3. Land on a dynamically generated SPA review page.
